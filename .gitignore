@@ -1,0 +1,37 @@
+# Ignore results and runs directories
+results/
+runs/
+model_test_results/
+test_results/
+
+# Python cache files - 正确的写法
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Model cache
+model/__pycache__/
+utils/__pycache__/
+data/__pycache__/
+model/model_test_results/
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+env/
+venv/
